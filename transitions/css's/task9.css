@@ -1,0 +1,52 @@
+.container{
+    margin: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+   z-index: 1; 
+}
+
+
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 1s ease-in;
+    transform-origin: top left;
+}
+.red:hover{
+    transform: rotate(90deg);
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+    transition: all 1s ease-in;
+    transform-origin: top right;
+}
+.yellow:hover{
+    transform: rotate(-90deg);
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    transition: all 1s ease-in;
+    transform-origin: bottom left;
+}
+.blue:hover{
+    transform: rotate(-90deg);
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    transition: all 1s ease-in;
+    transform-origin: bottom right;
+}
+.green:hover{
+    transform: rotate(90deg);
+}
+
+

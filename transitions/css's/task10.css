@@ -1,0 +1,29 @@
+.box1{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: all 1s ease-in-out;
+
+}
+
+.box1:hover{
+width: 400px;
+}
+.box1:hover ~ .box2{
+    width: 400px;
+
+}
+.box2{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color:red;
+   transition: all 1s ease-in-out 1s;
+}
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+div{
+    margin: 150px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition: all 0.5s;
+}
+
+button{
+    position: absolute;
+    top:60%;
+    left: 15%;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color:black;
+    color: white;
+}
+
+button:active ~ div{
+    transform: scale(1.5);
+    position: absolute;
+
+}

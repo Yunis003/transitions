@@ -1,0 +1,10 @@
+div{
+    margin: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    transition: all 1s ease-in;
+}
+div:hover{
+transform: translateX(200px);
+}

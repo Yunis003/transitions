@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    margin: 150px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in;
+    
+}
+.box{
+    width: 130px;
+    height: 130px;
+    background-color: blue;
+    transition: all 0.5s ease-in;
+}
+
+.container:hover{
+    transform: scaleX(2);
+}

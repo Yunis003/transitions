@@ -1,0 +1,43 @@
+.container{
+    margin: 200px;
+    width: 300px;
+    height: 300px;
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   animation: container 7s ease-in infinite;
+   
+    
+}
+
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    animation: container 6s ease-in infinite;
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation: container 5s ease-in infinite;
+}
+
+
+@keyframes container {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+
+/*button:active ~ .container{
+
+}*/

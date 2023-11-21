@@ -1,0 +1,20 @@
+.container{
+    margin: 150px;
+    width: 200px;
+    height:200px;
+    background-color: orange;
+   
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    transition: all 0.5s ease-in;
+    text-align: center;
+  
+}
+
+.box:hover{
+    transform: rotate(10deg);
+}

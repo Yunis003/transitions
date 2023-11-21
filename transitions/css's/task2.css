@@ -1,0 +1,33 @@
+.container{
+    margin: 20px auto;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deg{
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s ease-in-out;
+    background-color: yellowgreen;
+}
+.deg:hover{
+    transform: rotate(360deg);} 
+
+.turn{
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s ease-in-out;
+    background-color: blueviolet;
+}
+.turn:hover{
+    transform: rotate(1turn);} 
+
+
+/*button:active ~ deg{
+
+transform: rotate(360deg);
+}
+button:active ~ turn{
+    transform: rotate(1turn);
+} ?*
